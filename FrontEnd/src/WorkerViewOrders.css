@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image 1s ease-in-out;
+  }
+
+  .worker-orders-page {
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .worker-orders-page.visible {
+    opacity: 1;
+  }
+
+  .worker-orders-back-icon {
+    position: absolute;
+    top: 1.6vw;
+    left: 2vw;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+  }
+
+  .worker-orders-top-text-container {
+    position: absolute;
+    top: 1.8vw;
+    left: 6vw;
+  }
+
+  .worker-orders-top-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .worker-orders-page-order-search {
+    position: absolute;
+    top: 8vw;
+    left: 6vw;
+  }
+
+  .worker-orders-search-input-box {
+    position: absolute;
+    top: 1vw;
+    left: 60vw;
+    width: 20vw;
+    height: 3.5vw;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .worker-orders-list-section {
+    position: absolute;
+    top: 16vw;
+    left: 6vw;
+  }
+
+  .worker-orders-list-text-container {
+    position: absolute;
+    top: 1.8vw;
+    left: 5vw;
+  }
+
+  .worker-orders-list-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .worker-orders-scan-qr {
+    position: absolute;
+    top: 2vw;
+    left: 57vw;
+  }

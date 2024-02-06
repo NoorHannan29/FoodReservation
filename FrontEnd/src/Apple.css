@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image;
+  }
+
+  .ap-food-page {
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .ap-food-page.visible {
+    opacity: 1;
+  }
+
+  .ap-back-icon {
+    position: absolute;
+    top: 1.6vw;
+    left: 2vw;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+  }
+
+  .ap-cart-icon {
+    position: absolute;
+    top: 1.7vw;
+    left: 94vw;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+  }
+
+  .ap-top-text-container {
+    position: absolute;
+    top: 1.8vw;
+    left: 10.2vw;
+    transform: translateX(-50%);
+  }
+  
+  .ap-top-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .ap-description-container {
+    position: absolute;
+    top: 8.8vw;
+    left: 13vw;
+    transform: translateX(-50%);
+  }
+  
+  .ap-description-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .ap-add-ons-box {
+    position: absolute;
+    top: 16.5vw;
+    left: 32vw;
+    transform: translateX(-50%);
+  }
+
+  .ap-add-ons-text {
+    position: absolute;
+    top: 9vw;
+    left: 6.5vw;
+    transform: translateX(-50%);
+  }
+  
+  .ap-checkbox-1,
+  .ap-checkbox-2,
+  .ap-checkbox-3 {
+    position: absolute;
+    left: 28vw;
+  }
+  
+  .ap-checkbox-1 {
+    top: 24vw;
+  }
+  
+  .ap-checkbox-2 {
+    top: 28vw;
+  }
+  
+  .ap-checkbox-3 {
+    top: 32vw;
+  }
+
+  .ap-food-image {
+    position: absolute;
+    top: 8vw;
+    left: 32vw;
+    width: 28vw;
+    height: 23vw;
+  }
+
+  .ap-remarks-box {
+    position: absolute;
+    top: 19vw;
+    left: 13.5vw;
+    width: 25vw;
+    height: 9vw;
+    transform: translateX(-50%);
+  }
+
+  .ap-remarks-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 19.5vw;
+    left: 3vw;
+  }
+
+  .ap-text-box-container {
+    position: absolute;
+    padding: 0.5rem;
+    font-size: 1rem;
+    top: 26.2vw;
+    left: 2.2vw;
+  }
+
+  .ap-quantity-box {
+    position: absolute;
+    top: 47.5vw;
+    left: 50vw;
+  }
+
+  .ap-add-to-cart {
+    position: absolute;
+    top: 45.4vw;
+    left: 69vw;
+    cursor: pointer;
+  }

@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image;
+  }
+
+  .settings-back-icon {
+    position: absolute;
+    top: 1.6vw;
+    left: 2vw;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+  }
+
+  .settings-top-text-container {
+    position: absolute;
+    top: 1.8vw;
+    left: 10vw;
+    transform: translateX(-50%);
+  }
+  
+  .settings-top-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .settings-section {
+    position: absolute;
+    top: 9vw;
+    left: 2vw;
+  }
+
+  .parent-wallet-bg {
+    position: absolute;
+    top: 9vw;
+    left: 62vw;
+  }
+
+  .parent-name-container {
+    position: absolute;
+    top: 9.8vw;
+    left: 67vw;
+  }
+
+  .parent-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .parent-uuid-container {
+    position: absolute;
+    top: 12vw;
+    left: 67vw;
+  }
+
+  .parent-uuid {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .parent-money-container {
+    position: absolute;
+    top: 17.8vw;
+    left: 72vw;
+    width: 40vw;
+    height: 10vw;
+    text-align: left;
+  }
+
+  .parent-money {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .parent-top-up-container {
+    position: absolute;
+    top: 26vw;
+    left: 65vw;
+    width: 40vw;
+    height: 10vw;
+    text-align: left;
+  }
+
+  .parent-top-up {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+
+  .parent-manage-orders {
+    position: absolute;
+    top: 10.5vw;
+    left: 3vw;
+  }
+
+  .parent-manage-profile {
+    position: absolute;
+    top: 18vw;
+    left: 3vw;
+  }
+
+  .parent-payment-methods {
+    position: absolute;
+    top: 25.5vw;
+    left: 3vw;
+  }
+
+  .parent-vouchers {
+    position: absolute;
+    top: 33vw;
+    left: 3vw;
+    cursor: pointer;
+  }
+
+  .parent-logout {
+    position: absolute;
+    top: 40.5vw;
+    left: 3vw;
+  }

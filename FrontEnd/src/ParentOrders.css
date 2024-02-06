@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image;
+  }
+
+  .parent-order-back-icon {
+    position: absolute;
+    top: 1.6vw;
+    left: 2vw;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+  }
+
+  .parent-order-top-text-container {
+    position: absolute;
+    top: 1.8vw;
+    left: 7vw;
+  }
+  
+  .parent-order-top-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .parent-order-header {
+    position: absolute;
+    top: 8.6vw;
+    left: 1vw;
+  }
+
+  .parent-order-section-bg {
+    position: absolute;
+  }
+
+  .parent-order-section-text-container {
+    position: absolute;
+    height: 2vw;
+    width: 40vw;
+  }
+
+  .parent-order-section-text {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+  }
+
+  .parent-order-qr-button {
+    position: absolute;
+  }
+
+  .parent-order-cancel-button {
+    position: absolute;
+    cursor: pointer;
+  }

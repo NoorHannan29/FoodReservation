@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image 1s ease-in-out;
+  }
+
+  .admin-funds-page {
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .admin-funds-page.visible {
+    opacity: 1;
+  }
+
+  .admin-funds-back-icon {
+    position: absolute;
+    top: 1.6vw;
+    left: 2vw;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+  }
+
+  .admin-funds-top-text-container {
+    position: absolute;
+    top: 1.8vw;
+    left: 6vw;
+  }
+
+  .admin-funds-top-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .admin-funds-page-order-search {
+    position: absolute;
+    top: 8vw;
+    left: 6vw;
+  }
+
+  .funds-list-section {
+    position: absolute;
+    top: 16vw;
+    left: 6vw;
+  }
+
+  .funds-list-text-container {
+    position: absolute;
+    top: 3.5vw;
+    left: 5vw;
+  }
+
+  .funds-list-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .funds-transfer {
+    position: absolute;
+    top: 2vw;
+    left: 57vw;
+  }

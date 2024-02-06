@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image 1s ease-in-out;
+  }
+
+  .worker-home-page {
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .worker-home-page.visible {
+    opacity: 1;
+  }
+
+  .worker-home-page-selection-bg {
+    position: absolute;
+    top: 15vw;
+    left: 4vw;
+  }
+
+  .worker-view-orders-button {
+    position: absolute;
+    top: 2vw;
+    left: 1.5vw;
+  }
+
+  .worker-logout-button {
+    position: absolute;
+    top: 9.5vw;
+    left: 1.5vw;
+  }
+
+  

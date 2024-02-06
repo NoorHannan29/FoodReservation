@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image;
+  }
+
+  .parent-change-name-back-icon {
+    position: absolute;
+    top: 1.6vw;
+    left: 2vw;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+  }
+
+  .parent-change-name-top-text-container {
+    position: absolute;
+    top: 1.8vw;
+    left: 7vw;
+  }
+  
+  .parent-change-name-top-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .parent-change-name-section-bg {
+    position: absolute;
+    top: 9vw;
+    left: 2vw;
+  }
+
+  .change-name-input-box-bg {
+    position: absolute;
+    top: 13vw;
+    left: 1.5vw;
+  }
+
+  .change-name-input-box {
+    position: absolute;
+    top: 14vw;
+    left: 9vw;
+    width: 48vw;
+    height: 3.5vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .change-name-confirm-button {
+    position: absolute;
+    top: 20vw;
+    left: 1.5vw;
+    cursor: pointer;
+  }
+  
+  .change-name-cancel-button {
+    position: absolute;
+    top: 27vw;
+    left: 1.5vw;
+    cursor: pointer;
+  }

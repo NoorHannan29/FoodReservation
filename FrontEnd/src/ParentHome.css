@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image;
+  }
+  
+  .parent-home-page {
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .parent-home-page.visible {
+    opacity: 1;
+  }
+
+  .settings-icon {
+    position: absolute;
+    top: 1.7vw;
+    left: 2vw;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+  }
+
+  .cart-icon {
+    position: absolute;
+    top: 1.7vw;
+    left: 94vw;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+  }
+
+  .welcome-text-container {
+    position: absolute;
+    top: 1.7vw;
+    left: 6vw;
+  }
+
+  .welcome-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .nasi-briyani {
+    position: absolute;
+    top: 12vw;
+    left: 4vw;
+    width: 30vw;
+    height: 12.5vw;
+    cursor: pointer;
+  }
+
+  .steak-and-fries {
+    position: absolute;
+    top: 12.4vw;
+    left: 34vw;
+    width: 28.34vw;
+    height: 12.1vw;
+    cursor: pointer;
+  }
+
+  .doughnut {
+    position: absolute;
+    top: 12.4vw;
+    left: 64vw;
+    width: 28.5vw;
+    height: 12.1vw;
+    cursor: pointer;
+  }
+
+  .nasi-lemak {
+    position: absolute;
+    top: 28.4vw;
+    left: 4vw;
+    width: 28.34vw;
+    height: 12.1vw;
+    cursor: pointer;
+  }
+
+  .wantan-mee {
+    position: absolute;
+    top: 28.4vw;
+    left: 34vw;
+    width: 28.34vw;
+    height: 12.1vw;
+    cursor: pointer;
+  }
+
+  .apple {
+    position: absolute;
+    top: 28.4vw;
+    left: 64vw;
+    width: 28.5vw;
+    height: 12.1vw;
+    cursor: pointer;
+  }

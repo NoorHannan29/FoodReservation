@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image;
+  }
+
+  .parent-profile-back-icon {
+    position: absolute;
+    top: 1.6vw;
+    left: 2vw;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+  }
+
+  .parent-profile-top-text-container {
+    position: absolute;
+    top: 1.8vw;
+    left: 7vw;
+  }
+  
+  .parent-profile-top-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .parent-profile-section-bg {
+    position: absolute;
+    top: 9vw;
+    left: 2vw;
+  }
+
+  .parent-profile-change-name {
+    position: absolute;
+    top: 22vw;
+    left: 3.25vw;
+  }
+
+  .parent-profile-change-password {
+    position: absolute;
+    top: 29vw;
+    left: 3.25vw;
+  }
+
+  .parent-profile-delete {
+    position: absolute;
+    top: 36vw;
+    left: 3.25vw;
+  }

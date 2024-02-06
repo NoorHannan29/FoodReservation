@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image;
+  }
+
+  .cart-page {
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .cart-page.visible {
+    opacity: 1;
+  }
+
+  .cart-back-icon {
+    position: absolute;
+    top: 1.6vw;
+    left: 2vw;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+  }
+
+  .cart-top-text-container {
+    position: absolute;
+    top: 1.8vw;
+    left: 9vw;
+    transform: translateX(-50%);
+  }
+  
+  .cart-top-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .cart-section {
+    position: absolute;
+    top: 9vw;
+    left: 2vw;
+  }
+
+  .cart-order-text-container {
+    position: absolute;
+    top: 12.5vw;
+    left: 3vw;
+  }
+
+  .cart-order-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .cart-calendar-text-container {
+    position: absolute;
+    top: 22.5vw;
+    left: 54vw;
+  }
+
+  .cart-calendar-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .cart-calendar-bg {
+    position: absolute;
+    top: 20vw;
+    left: 52vw;
+    width: 41vw;
+    height: 8vw;
+  }
+
+  .cart-calendar {
+    position: absolute;
+    top: -5.2vw;
+    left: 30.7vw;
+    width: 12vw;
+    height: 3vw;
+  }
+
+  .cart-pay-order {
+    position: absolute;
+    top: 44vw;
+    left: 52vw;
+  }

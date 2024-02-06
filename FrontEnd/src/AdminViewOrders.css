@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image 1s ease-in-out;
+  }
+
+  .admin-orders-page {
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .admin-orders-page.visible {
+    opacity: 1;
+  }
+
+  .admin-orders-back-icon {
+    position: absolute;
+    top: 1.6vw;
+    left: 2vw;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+  }
+
+  .admin-orders-top-text-container {
+    position: absolute;
+    top: 1.8vw;
+    left: 6vw;
+  }
+
+  .admin-orders-top-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .admin-orders-page-order-search {
+    position: absolute;
+    top: 8vw;
+    left: 6vw;
+  }
+
+  .orders-search-input-box {
+    position: absolute;
+    top: 1vw;
+    left: 60vw;
+    width: 20vw;
+    height: 3.5vw;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .orders-list-section {
+    position: absolute;
+    top: 16vw;
+    left: 6vw;
+  }
+
+  .orders-list-text-container {
+    position: absolute;
+    top: 1.8vw;
+    left: 5vw;
+  }
+
+  .orders-list-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+
+  .orders-status-bg {
+    position: absolute;
+    top: 2vw;
+    left: 57vw;
+  }
+
+  .orders-status-text-container {
+    position: absolute;
+    width: 32vw;
+    height: 10vw;
+    left: 1vw;
+    top: 1.5vw;
+  }
+
+  .orders-status-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }

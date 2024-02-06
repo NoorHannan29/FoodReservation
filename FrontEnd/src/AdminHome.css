@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-image 1s ease-in-out;
+  }
+
+  .admin-home-page {
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .admin-home-page.visible {
+    opacity: 1;
+  }
+
+  .admin-home-page-selection-bg {
+    position: absolute;
+    top: 10vw;
+    left: 4vw;
+  }
+
+  .admin-view-orders-button {
+    position: absolute;
+    top: 2vw;
+    left: 1vw;
+  }
+
+  .admin-view-transactions-button {
+    position: absolute;
+    top: 9.5vw;
+    left: 0.25vw;
+  }
+
+  .admin-view-funds-button {
+    position: absolute;
+    top: 17vw;
+    left: 1vw;
+  }
+
+  .admin-logout-button {
+    position: absolute;
+    top: 24.5vw;
+    left: 1vw;
+  }
+
+  
