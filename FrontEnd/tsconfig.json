@@ -20,6 +20,10 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src", "./../BackEnd/foodReservation"],
+  "references": [{ "path": "./tsconfig.node.json" }],
+  "baseUrl": "./",
+  "paths": {
+    "@databaseCaller/*": ["../../../BackEnd/foodReservation"]
+  }
 }
